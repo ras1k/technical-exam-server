@@ -4,7 +4,6 @@ const cors = require('cors');
 const port = process.env.PORT || 5000;
 
 app.use(cors());
-app.use(express.json());
 
 const services = [
     {
@@ -22,7 +21,7 @@ const services = [
     {
         id: 3,
         name: 'Document Storage',
-        description: 'Store offsite & manAGE ONLINE',
+        description: 'Store offsite & manage online',
         logo: "https://drive.google.com/uc?id=1rl9zrRMwljNlIb6aONVLsrNsFQVwGo1D"
     },
     {
@@ -33,8 +32,8 @@ const services = [
     },
     {
         id: 5,
-        name: 'retail and e-Commerce',
-        description: "We'll RTCRtpReceiver, store, pick, pack and ship",
+        name: 'Retail and e-Commerce',
+        description: "We'll receive, store, pick, pack and ship",
         logo: "https://drive.google.com/uc?id=1wSxL2VpKYrfZ_W_WBP3uIJMIQIQRyedQ"
     },
     {
